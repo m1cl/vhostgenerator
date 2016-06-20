@@ -1,0 +1,123 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	techlivezheng	/techlivezheng@gmail.com/
+!_TAG_PROGRAM_NAME	phpctags	//
+!_TAG_PROGRAM_URL	https://github.com/techlivezheng/phpctags	/official site/
+!_TAG_PROGRAM_VERSION	0.6.0	//
+ClassLoader	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^class ClassLoader$/;"	c	line:43	namespace:Composer\Autoload
+ComposerAutoloaderInitd3bb2a56afdf392fcb7a6791ff3d6b3f	/home/micl/vhostGenerator/vendor/composer/autoload_real.php	/^class ComposerAutoloaderInitd3bb2a56afdf392fcb7a6791ff3d6b3f$/;"	c	line:5
+ComposerStaticInitd3bb2a56afdf392fcb7a6791ff3d6b3f	/home/micl/vhostGenerator/vendor/composer/autoload_static.php	/^class ComposerStaticInitd3bb2a56afdf392fcb7a6791ff3d6b3f$/;"	c	line:7	namespace:Composer\Autoload
+Composer\Autoload	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^namespace Composer\Autoload;$/;"	n	line:13
+Composer\Autoload	/home/micl/vhostGenerator/vendor/composer/autoload_static.php	/^namespace Composer\Autoload;$/;"	n	line:5
+add	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    public function add($prefix, $paths, $prepend = false)$/;"	m	line:108	class:Composer\Autoload\ClassLoader	access:public
+addClassMap	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    public function addClassMap(array $classMap)$/;"	m	line:91	class:Composer\Autoload\ClassLoader	access:public
+addPsr4	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    public function addPsr4($prefix, $paths, $prepend = false)$/;"	m	line:155	class:Composer\Autoload\ClassLoader	access:public
+allowOverride	/home/micl/vhostGenerator/app/model/generator.php	/^        $this->allowOverride = $allowOverride;$/;"	v	line:110	method:vhost\generator::setAllowOverride
+allowOverride	/home/micl/vhostGenerator/app/model/generator.php	/^    private $allowOverride; $/;"	p	line:12	class:vhost\generator	access:private
+baseDir	/home/micl/vhostGenerator/vendor/composer/autoload_classmap.php	/^$baseDir = dirname($vendorDir);$/;"	v	line:6
+baseDir	/home/micl/vhostGenerator/vendor/composer/autoload_namespaces.php	/^$baseDir = dirname($vendorDir);$/;"	v	line:6
+baseDir	/home/micl/vhostGenerator/vendor/composer/autoload_psr4.php	/^$baseDir = dirname($vendorDir);$/;"	v	line:6
+class	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^            $class = substr($class, 1);$/;"	v	line:318	method:Composer\Autoload\ClassLoader::findFile
+classMap	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^            $this->classMap = array_merge($this->classMap, $classMap);$/;"	v	line:94	method:Composer\Autoload\ClassLoader::addClassMap
+classMap	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    private $classMap = array();$/;"	p	line:55	class:Composer\Autoload\ClassLoader	access:private
+classMap	/home/micl/vhostGenerator/vendor/composer/autoload_static.php	/^    public static $classMap = array ($/;"	p	line:9	class:Composer\Autoload\ComposerStaticInitd3bb2a56afdf392fcb7a6791ff3d6b3f	access:public
+classMapAuthoritative	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^        $this->classMapAuthoritative = $classMapAuthoritative;$/;"	v	line:261	method:Composer\Autoload\ClassLoader::setClassMapAuthoritative
+classMapAuthoritative	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    private $classMapAuthoritative = false;$/;"	p	line:57	class:Composer\Autoload\ClassLoader	access:private
+current	/home/micl/vhostGenerator/main.php	/^$current = $skeleton->getString(); $/;"	v	line:36
+current	/home/micl/vhostGenerator/main.php	/^$current = file_get_contents( $data );$/;"	v	line:34
+customLogDirectory	/home/micl/vhostGenerator/app/model/generator.php	/^        $this->customLogDirectory = $customLogDirectory;$/;"	v	line:158	method:vhost\generator::setCustomLogDirectory
+customLogDirectory	/home/micl/vhostGenerator/app/model/generator.php	/^    private $customLogDirectory;$/;"	p	line:15	class:vhost\generator	access:private
+customLogName	/home/micl/vhostGenerator/app/model/generator.php	/^        $this->customLogName = $customLogName;$/;"	v	line:174	method:vhost\generator::setCustomLogName
+customLogName	/home/micl/vhostGenerator/app/model/generator.php	/^    private $customLogName;$/;"	p	line:16	class:vhost\generator	access:private
+data	/home/micl/vhostGenerator/main.php	/^$data = array($/;"	v	line:5
+directory	/home/micl/vhostGenerator/app/model/generator.php	/^        $this->directory = $directory;$/;"	v	line:78	method:vhost\generator::setDirectory
+directory	/home/micl/vhostGenerator/app/model/generator.php	/^    private $directory;$/;"	p	line:10	class:vhost\generator	access:private
+documentRoot	/home/micl/vhostGenerator/app/model/generator.php	/^        $this->documentRoot = $documentRoot;$/;"	v	line:46	method:vhost\generator::setDocumentRoot
+documentRoot	/home/micl/vhostGenerator/app/model/generator.php	/^    private $documentRoot;$/;"	p	line:8	class:vhost\generator	access:private
+errLogDirectory	/home/micl/vhostGenerator/app/model/generator.php	/^        $this->errLogDirectory = $errLogDirectory;$/;"	v	line:126	method:vhost\generator::setErrLogDirectory
+errLogDirectory	/home/micl/vhostGenerator/app/model/generator.php	/^    private $errLogDirectory;$/;"	p	line:13	class:vhost\generator	access:private
+errLogName	/home/micl/vhostGenerator/app/model/generator.php	/^        $this->errLogName = $errLogName;$/;"	v	line:142	method:vhost\generator::setErrLogName
+errLogName	/home/micl/vhostGenerator/app/model/generator.php	/^    private $errLogName;$/;"	p	line:14	class:vhost\generator	access:private
+fallbackDirsPsr0	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^                $this->fallbackDirsPsr0 = array_merge($/;"	v	line:112	method:Composer\Autoload\ClassLoader::add
+fallbackDirsPsr0	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^            $this->fallbackDirsPsr0 = (array) $paths;$/;"	v	line:203	method:Composer\Autoload\ClassLoader::set
+fallbackDirsPsr0	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    private $fallbackDirsPsr0 = array();$/;"	p	line:52	class:Composer\Autoload\ClassLoader	access:private
+fallbackDirsPsr4	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^                $this->fallbackDirsPsr4 = array_merge($/;"	v	line:160	method:Composer\Autoload\ClassLoader::addPsr4
+fallbackDirsPsr4	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^            $this->fallbackDirsPsr4 = (array) $paths;$/;"	v	line:221	method:Composer\Autoload\ClassLoader::setPsr4
+fallbackDirsPsr4	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    private $fallbackDirsPsr4 = array();$/;"	p	line:48	class:Composer\Autoload\ClassLoader	access:private
+file	/home/micl/vhostGenerator/main.php	/^$file = "test.txt";$/;"	v	line:33
+file	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^            $file = $this->findFileWithExtension($class, '.hh');$/;"	v	line:333	method:Composer\Autoload\ClassLoader::findFile
+file	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^        $file = $this->findFileWithExtension($class, '.php');$/;"	v	line:329	method:Composer\Autoload\ClassLoader::findFile
+file	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^        if ($file = $this->findFile($class)) {$/;"	v	line:300	method:Composer\Autoload\ClassLoader::loadClass
+findFile	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    public function findFile($class)$/;"	m	line:314	class:Composer\Autoload\ClassLoader	access:public
+findFileWithExtension	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    private function findFileWithExtension($class, $ext)$/;"	m	line:344	class:Composer\Autoload\ClassLoader	access:private
+first	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^        $first = $class[0];$/;"	v	line:349	method:Composer\Autoload\ClassLoader::findFileWithExtension
+first	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^        $first = $prefix[0];$/;"	v	line:126	method:Composer\Autoload\ClassLoader::add
+generator	/home/micl/vhostGenerator/app/model/generator.php	/^class generator$/;"	c	line:4	namespace:vhost
+getAllowOverride	/home/micl/vhostGenerator/app/model/generator.php	/^    public function getAllowOverride()$/;"	m	line:100	class:vhost\generator	access:public
+getClassMap	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    public function getClassMap()$/;"	m	line:83	class:Composer\Autoload\ClassLoader	access:public
+getCustomLogDirectory	/home/micl/vhostGenerator/app/model/generator.php	/^    public function getCustomLogDirectory()$/;"	m	line:148	class:vhost\generator	access:public
+getCustomLogName	/home/micl/vhostGenerator/app/model/generator.php	/^    public function getCustomLogName()$/;"	m	line:164	class:vhost\generator	access:public
+getDirectory	/home/micl/vhostGenerator/app/model/generator.php	/^    public function getDirectory()$/;"	m	line:68	class:vhost\generator	access:public
+getDocumentRoot	/home/micl/vhostGenerator/app/model/generator.php	/^    public function getDocumentRoot()$/;"	m	line:36	class:vhost\generator	access:public
+getErrLogDirectory	/home/micl/vhostGenerator/app/model/generator.php	/^    public function getErrLogDirectory()$/;"	m	line:116	class:vhost\generator	access:public
+getErrLogName	/home/micl/vhostGenerator/app/model/generator.php	/^    public function getErrLogName()$/;"	m	line:132	class:vhost\generator	access:public
+getFallbackDirs	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    public function getFallbackDirs()$/;"	m	line:73	class:Composer\Autoload\ClassLoader	access:public
+getFallbackDirsPsr4	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    public function getFallbackDirsPsr4()$/;"	m	line:78	class:Composer\Autoload\ClassLoader	access:public
+getInitializer	/home/micl/vhostGenerator/vendor/composer/autoload_static.php	/^    public static function getInitializer(ClassLoader $loader)$/;"	m	line:14	class:Composer\Autoload\ComposerStaticInitd3bb2a56afdf392fcb7a6791ff3d6b3f	access:public
+getLoader	/home/micl/vhostGenerator/vendor/composer/autoload_real.php	/^    public static function getLoader()$/;"	m	line:16	class:ComposerAutoloaderInitd3bb2a56afdf392fcb7a6791ff3d6b3f	access:public
+getOptions	/home/micl/vhostGenerator/app/model/generator.php	/^    public function getOptions()$/;"	m	line:84	class:vhost\generator	access:public
+getPort	/home/micl/vhostGenerator/app/model/generator.php	/^    public function getPort()$/;"	m	line:180	class:vhost\generator	access:public
+getPrefixes	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    public function getPrefixes()$/;"	m	line:59	class:Composer\Autoload\ClassLoader	access:public
+getPrefixesPsr4	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    public function getPrefixesPsr4()$/;"	m	line:68	class:Composer\Autoload\ClassLoader	access:public
+getServerAdmin	/home/micl/vhostGenerator/app/model/generator.php	/^    public function getServerAdmin()$/;"	m	line:52	class:vhost\generator	access:public
+getServerName	/home/micl/vhostGenerator/app/model/generator.php	/^    public function getServerName()$/;"	m	line:21	class:vhost\generator	access:public
+getString	/home/micl/vhostGenerator/app/model/skeleton.php	/^    public function getString()$/;"	m	line:7	class:skeleton\skeleton	access:public
+getUseIncludePath	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    public function getUseIncludePath()$/;"	m	line:248	class:Composer\Autoload\ClassLoader	access:public
+includeFile	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^function includeFile($file)$/;"	f	line:410	namespace:Composer\Autoload
+isClassMapAuthoritative	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    public function isClassMapAuthoritative()$/;"	m	line:269	class:Composer\Autoload\ClassLoader	access:public
+loadClass	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    public function loadClass($class)$/;"	m	line:298	class:Composer\Autoload\ClassLoader	access:public
+loadClassLoader	/home/micl/vhostGenerator/vendor/composer/autoload_real.php	/^    public static function loadClassLoader($class)$/;"	m	line:9	class:ComposerAutoloaderInitd3bb2a56afdf392fcb7a6791ff3d6b3f	access:public
+loader	/home/micl/vhostGenerator/vendor/composer/autoload_real.php	/^        self::$loader = $loader = new \Composer\Autoload\ClassLoader();$/;"	v	line:23	method:ComposerAutoloaderInitd3bb2a56afdf392fcb7a6791ff3d6b3f::getLoader
+loader	/home/micl/vhostGenerator/vendor/composer/autoload_real.php	/^    private static $loader;$/;"	p	line:7	class:ComposerAutoloaderInitd3bb2a56afdf392fcb7a6791ff3d6b3f	access:private
+logicalPathPsr0	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^            $logicalPathPsr0 = substr($logicalPathPsr4, 0, $pos + 1)$/;"	v	line:372	method:Composer\Autoload\ClassLoader::findFileWithExtension
+logicalPathPsr4	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^        $logicalPathPsr4 = strtr($class, '\\', DIRECTORY_SEPARATOR) . $ext;$/;"	v	line:347	method:Composer\Autoload\ClassLoader::findFileWithExtension
+makeSkeleton	/home/micl/vhostGenerator/app/model/skeleton.php	/^    public function makeSkeleton($port, $serverName, $serverAdmin, $documentRoot, $directory, $options, $errLogDirectory, $errLogName, $customLogDirectory, $customLogName )$/;"	m	line:12	class:skeleton\skeleton	access:public
+options	/home/micl/vhostGenerator/app/model/generator.php	/^        $this->options = $options;$/;"	v	line:94	method:vhost\generator::setOptions
+options	/home/micl/vhostGenerator/app/model/generator.php	/^    private $options = "Indexes FollowSymLinks MultiViews";$/;"	p	line:11	class:vhost\generator	access:private
+port	/home/micl/vhostGenerator/app/model/generator.php	/^    private static $port = 80;$/;"	p	line:6	class:vhost\generator	access:private
+port	/home/micl/vhostGenerator/main.php	/^$port = $vhostGenerator->getPort();$/;"	v	line:32
+prefixDirsPsr4	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    private $prefixDirsPsr4 = array();$/;"	p	line:47	class:Composer\Autoload\ClassLoader	access:private
+prefixLengthsPsr4	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    private $prefixLengthsPsr4 = array();$/;"	p	line:46	class:Composer\Autoload\ClassLoader	access:private
+prefixesPsr0	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    private $prefixesPsr0 = array();$/;"	p	line:51	class:Composer\Autoload\ClassLoader	access:private
+register	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    public function register($prepend = false)$/;"	m	line:279	class:Composer\Autoload\ClassLoader	access:public
+serverAdmin	/home/micl/vhostGenerator/app/model/generator.php	/^        $this->serverAdmin = $serverAdmin;$/;"	v	line:62	method:vhost\generator::setServerAdmin
+serverAdmin	/home/micl/vhostGenerator/app/model/generator.php	/^    private $serverAdmin;$/;"	p	line:9	class:vhost\generator	access:private
+serverName	/home/micl/vhostGenerator/app/model/generator.php	/^        $this->serverName = $serverName;$/;"	v	line:31	method:vhost\generator::setServerName
+serverName	/home/micl/vhostGenerator/app/model/generator.php	/^    private $serverName;$/;"	p	line:7	class:vhost\generator	access:private
+set	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    public function set($prefix, $paths)$/;"	m	line:200	class:Composer\Autoload\ClassLoader	access:public
+setAllowOverride	/home/micl/vhostGenerator/app/model/generator.php	/^    public function setAllowOverride($allowOverride)$/;"	m	line:108	class:vhost\generator	access:public
+setClassMapAuthoritative	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    public function setClassMapAuthoritative($classMapAuthoritative)$/;"	m	line:259	class:Composer\Autoload\ClassLoader	access:public
+setCustomLogDirectory	/home/micl/vhostGenerator/app/model/generator.php	/^    public function setCustomLogDirectory($customLogDirectory)$/;"	m	line:156	class:vhost\generator	access:public
+setCustomLogName	/home/micl/vhostGenerator/app/model/generator.php	/^    public function setCustomLogName($customLogName)$/;"	m	line:172	class:vhost\generator	access:public
+setDirectory	/home/micl/vhostGenerator/app/model/generator.php	/^    public function setDirectory($directory)$/;"	m	line:76	class:vhost\generator	access:public
+setDocumentRoot	/home/micl/vhostGenerator/app/model/generator.php	/^    public function setDocumentRoot($documentRoot)$/;"	m	line:44	class:vhost\generator	access:public
+setErrLogDirectory	/home/micl/vhostGenerator/app/model/generator.php	/^    public function setErrLogDirectory($errLogDirectory)$/;"	m	line:124	class:vhost\generator	access:public
+setErrLogName	/home/micl/vhostGenerator/app/model/generator.php	/^    public function setErrLogName($errLogName)$/;"	m	line:140	class:vhost\generator	access:public
+setOptions	/home/micl/vhostGenerator/app/model/generator.php	/^    public function setOptions($options)$/;"	m	line:92	class:vhost\generator	access:public
+setPsr4	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    public function setPsr4($prefix, $paths)$/;"	m	line:218	class:Composer\Autoload\ClassLoader	access:public
+setServerAdmin	/home/micl/vhostGenerator/app/model/generator.php	/^    public function setServerAdmin($serverAdmin)$/;"	m	line:60	class:vhost\generator	access:public
+setServerName	/home/micl/vhostGenerator/app/model/generator.php	/^    public function setServerName($serverName)$/;"	m	line:29	class:vhost\generator	access:public
+setUseIncludePath	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    public function setUseIncludePath($useIncludePath)$/;"	m	line:237	class:Composer\Autoload\ClassLoader	access:public
+skeleton	/home/micl/vhostGenerator/app/model/skeleton.php	/^class skeleton$/;"	c	line:3	namespace:skeleton
+skeleton	/home/micl/vhostGenerator/app/model/skeleton.php	/^namespace skeleton;$/;"	n	line:2
+skeletonString	/home/micl/vhostGenerator/app/model/skeleton.php	/^       $this->skeletonString = <<<"EOD"$/;"	v	line:14	method:skeleton\skeleton::makeSkeleton
+skeletonString	/home/micl/vhostGenerator/app/model/skeleton.php	/^    private $skeletonString;$/;"	p	line:5	class:skeleton\skeleton	access:private
+unregister	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    public function unregister()$/;"	m	line:287	class:Composer\Autoload\ClassLoader	access:public
+useIncludePath	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^        $this->useIncludePath = $useIncludePath;$/;"	v	line:239	method:Composer\Autoload\ClassLoader::setUseIncludePath
+useIncludePath	/home/micl/vhostGenerator/vendor/composer/ClassLoader.php	/^    private $useIncludePath = false;$/;"	p	line:54	class:Composer\Autoload\ClassLoader	access:private
+useStaticLoader	/home/micl/vhostGenerator/vendor/composer/autoload_real.php	/^        $useStaticLoader = PHP_VERSION_ID >= 50600 && !defined('HHVM_VERSION');$/;"	v	line:26	method:ComposerAutoloaderInitd3bb2a56afdf392fcb7a6791ff3d6b3f::getLoader
+vendorDir	/home/micl/vhostGenerator/vendor/composer/autoload_classmap.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v	line:5
+vendorDir	/home/micl/vhostGenerator/vendor/composer/autoload_namespaces.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v	line:5
+vendorDir	/home/micl/vhostGenerator/vendor/composer/autoload_psr4.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v	line:5
+vhost	/home/micl/vhostGenerator/app/model/generator.php	/^namespace vhost;$/;"	n	line:2
+vhostGenerator	/home/micl/vhostGenerator/main.php	/^$vhostGenerator = new generator();$/;"	v	line:17
