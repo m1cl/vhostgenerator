@@ -1,0 +1,15 @@
+	   <VirtualHost *:>
+			ServerName  
+			ServerAdmin 
+			DocumentRoot 
+			<Directory  > 
+					Options 
+					AllowOverride None
+					Order allow,deny
+					allow from all
+			</Directory>
+			LogLevel warn
+			ServerSignature On
+		ErrorLog .
+		CustomLog ." common
+	</VirtualHost>
