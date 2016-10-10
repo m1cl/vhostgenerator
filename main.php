@@ -2,19 +2,22 @@
 require_once __DIR__ . '/vendor/autoload.php';
 use vhost\generator;
 use skeleton\skeleton;
-$data = array(
+$ahaha = array(
                 'Port'=> '' ,
                 'ServerName' => '',
                 'ServerAdmin' => '',
+                'DocumentRoot' => '',
                 'Directory' => '',
                 'Options' => '',
                 'ErrorLogName' => '',
-                'ErrorLogDirectory' => '',
+                'ErrLogDirectory' => '',
                 'CustomLogDirectory'=> '',
                 'CustomLogName' => ''
 );
 
 $vhostGenerator = new generator();
+$skeleton = new skeleton();
+$data = $vhostGenerator->data;
 
 print_r( '-------------------------------' );
 echo "\n";
@@ -27,12 +30,14 @@ foreach( $data as $key => $value ) {
     echo ":\t";
     $stdin = fopen ( 'php://stdin' , 'r' );
     $value = fgets( $stdin );
+    $data[$key] = $value;
 }
 $stdin;
+print_r(array_values($data));
 $port = $vhostGenerator->getPort();
 $file = "test.txt";
-$current = file_get_contents( $data );
-$skeleton->makeSkeleton();
+$current = file_get_contents($file);
+$skeleton->makeSkeleton($data);
 $current = $skeleton->getString(); 
 
 file_put_contents($file, $current);

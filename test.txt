@@ -1,15 +1,25 @@
-	   <VirtualHost *:>
-			ServerName  
-			ServerAdmin 
-			DocumentRoot 
-			<Directory  > 
-					Options 
+	   <VirtualHost *:10
+>
+			ServerName wordpress.test
+
+			ServerAdmin test
+
+			DocumentRoot michael
+
+			<Directory askjfa
+> 
+					Options lkajsdflasjf
+
 					AllowOverride None
 					Order allow,deny
 					allow from all
 			</Directory>
 			LogLevel warn
 			ServerSignature On
-		ErrorLog .
-		CustomLog ." common
+		ErrorLog asdkfjasldfj
+/asdkfljaslkdf
+
+		CustomLog asdkfljasdjfaldsf
+/akldjsflksajflaf
+ common
 	</VirtualHost>

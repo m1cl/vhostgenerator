@@ -9,23 +9,25 @@ class skeleton
         return $this->skeletonString;
     }
     
-    public function makeSkeleton($port, $serverName, $serverAdmin, $documentRoot, $directory, $options, $errLogDirectory, $errLogName, $customLogDirectory, $customLogName )
+    // TODO remove new line after variable
+    public function makeSkeleton($data)
     {
+        $hello = "hello World";
        $this->skeletonString = <<<"EOD"
-	   <VirtualHost *:$port>
-			ServerName $serverName 
-			ServerAdmin $serverAdmin
-			DocumentRoot $documentRoot
-			<Directory $directory > 
-					Options $options
+	   <VirtualHost *:$data[Port]>
+			ServerName $data[ServerName]
+			ServerAdmin $data[ServerAdmin]
+			DocumentRoot $data[DocumentRoot]
+			<Directory $data[Directory]> 
+					Options $data[Options]
 					AllowOverride None
 					Order allow,deny
 					allow from all
 			</Directory>
 			LogLevel warn
 			ServerSignature On
-		ErrorLog $errLogDirectory/$errLogName
-		CustomLog "$customLogDirectory/$customLogName" common
+		ErrorLog $data[ErrLogDirectory]/$data[ErrLogName]
+		CustomLog $data[CustomLogDirectory]/$data[CustomLogName] common
 	</VirtualHost>
 EOD;
     } 
